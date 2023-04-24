@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* START OF HEADER SECTION */
+
+.header {
+    background-color: #F1F6F9;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.header > .logo-name {
+    align-self: center;
+    padding: 12px;
+    color: #212A3E;
+    font-size: 32px;
+}
+
+.header > .header-list {
+    display: flex;
+    gap: 22px;
+}
+
+li {
+    list-style: none;
+    align-self: center;
+    font-size: 32px;
+    padding: 16px;
+    color: #212A3E;
+
+}
+
+a {
+    text-decoration: none;
+    color: #212A3E; 
+}
+
+/* END OF HEADER SECTION */

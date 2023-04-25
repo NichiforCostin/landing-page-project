@@ -1,6 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+.first-page {
+    height: 100vh;
 }
 
 html {
@@ -40,7 +44,6 @@ li {
     background-color: #f4f4f4;
     border-radius: 3%;
     border: 1px solid #222;
-
 }
 
 a {
@@ -56,6 +59,7 @@ a {
     display: flex;
     justify-content: space-around;
     margin-top: 164px;
+    
 }
 
 .welcome-message {
@@ -80,6 +84,7 @@ a {
 }
 
 /* CREDIT TO https://getcssscan.com/css-buttons-examples*/
+
 .button-31 {
     background-color: #222;
     border-radius: 4px;
@@ -123,3 +128,53 @@ a {
 }
 
 /* END OF WELCOME SECTION */
+
+/* START OF PRICING SECTION */
+
+.pricing-section {
+    background-color: #212A3E;
+    color: #F1F6F9;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 164px;
+}
+
+.pricing-heading {
+    padding: 24px;
+    font-weight: bold;
+}
+
+.pricing-images {
+    display: flex;
+    gap: 128px;
+}
+
+.pricing-images img {
+    width: 250px;
+    height: auto;
+    padding: 24px;
+    margin: 8px;
+}
+
+.text {
+    max-width: 250px;
+    text-align: center;
+}
+.price-1,
+.price-2,
+.price-3,
+.price-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 32px;
+}
+
+/* END OF PRICING SECTION */
+
+

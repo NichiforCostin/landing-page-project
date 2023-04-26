@@ -208,3 +208,47 @@ a {
 }
 
 /* END OF QUOTE SECTION */
+
+/* START OF CONTACT SECTION */
+
+.contact-section {
+    height: 400px;
+    background-color: #212A3E;
+    color: #F1F6F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+    padding: 120px;
+
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 32px;
+}
+
+.contact-text h1 {
+    font-weight: bold;
+}
+
+.contact-text p {
+    width: 500px;
+}
+
+.contact-button {
+    background-color: #fff;
+    color: #222;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+/* END OF CONTACT SECTION */

@@ -177,4 +177,34 @@ a {
 
 /* END OF PRICING SECTION */
 
+/* START OF QUOTE SECTION */
 
+.quote-section {
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote-text {
+    align-self: flex-start;
+    font-size: 36px;
+    font-style: italic;
+    padding: 24px;
+}
+
+.name {
+    align-self: flex-end;
+    font-size: 36px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+/* END OF QUOTE SECTION */

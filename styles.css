@@ -218,6 +218,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .contact-div {
@@ -225,7 +226,11 @@ a {
     justify-content: center;
     align-items: center;
     gap: 240px;
-    padding: 120px;
+    padding: 60px 120px;
+    border-radius: 25px;
+    background-color: #F1F6F9;
+    color: #212A3E;
+
 
 }
 
@@ -245,10 +250,20 @@ a {
 }
 
 .contact-button {
-    background-color: #fff;
-    color: #222;
     margin: 0;
     flex-shrink: 0;
 }
 
 /* END OF CONTACT SECTION */
+
+.copyright-footer {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-footer p {
+    font-weight: bold;
+    font-size: 20px;
+}
